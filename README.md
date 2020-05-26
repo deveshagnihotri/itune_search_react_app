@@ -1,4 +1,3 @@
-# HackerEarth frontend developer challenge test react cart management system
 
 
 ## Getting Started
