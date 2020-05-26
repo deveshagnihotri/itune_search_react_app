@@ -5,7 +5,7 @@
 1. clone repository
 ```
 git clone https://github.com/deveshagnihotri/wednesday_solution_react_challenge.git
-
+```
 2. Install package
 ```
 npm install
