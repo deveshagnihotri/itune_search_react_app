@@ -44,12 +44,18 @@ const Styles = {
     color: #e88075;
     text-align: left;
     padding-left: 30px;
+    @media (max-width: 900px) {
+      text-align: center;
+    }
   `,
   CardContianer: styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
   `,
   Card: styled.div`
     display: flex;
@@ -64,6 +70,9 @@ const Styles = {
     background-color: #222222;
     width: 45%;
     align-items: center;
+    @media (max-width: 900px) {
+      width: 90%;
+    }
   `,
   Image: styled.img`
     height: 100px;

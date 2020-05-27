@@ -13,9 +13,12 @@ class LandingPage extends Component {
     };
   }
 
+  componentDidMount() {
+    this.props.LandingActions("hardwell");
+  }
+
   handleInputText = (e) => {
     e.preventDefault();
-
     this.setState({ inputValue: e.target.value });
   };
 
